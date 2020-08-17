@@ -1,0 +1,10 @@
+package com.myproj.stock.bo;
+
+
+import com.myproj.stock.model.Stock;
+
+public interface  StockBo {
+	
+	
+
+}

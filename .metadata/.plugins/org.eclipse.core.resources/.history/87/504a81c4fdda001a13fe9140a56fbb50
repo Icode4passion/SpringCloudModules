@@ -1,0 +1,9 @@
+package org.com.mvc;
+
+
+
+@Controller
+@RequestMapping("/")
+public class MainController {
+
+}

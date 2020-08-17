@@ -1,0 +1,16 @@
+package com.myproj.common;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.myproj.stock.bo.StockBo;
+
+public class App {
+	
+	public static void main(String args[]) {
+		
+		ApplicationContext appContext = new ClassPathXmlApplicationContext("spring/config/BeanLocation");
+		StockBo stockbo = (StockBo) appContext.getBean("stockBo");
+		
+	}
+}

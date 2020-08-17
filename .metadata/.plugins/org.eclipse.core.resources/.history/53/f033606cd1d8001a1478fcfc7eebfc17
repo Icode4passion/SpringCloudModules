@@ -1,0 +1,10 @@
+package com.myproj.stock.bo.Imp;
+
+
+import com.myproj.stock.bo.StockBo;
+import com.myproj.stock.model.Stock;
+import com.myproj.stock.dao.StockDao;
+
+public class StockBoImp {
+
+}

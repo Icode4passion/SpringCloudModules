@@ -1,0 +1,12 @@
+spring.application.name = zuul-gateway-server
+server.port = 3000
+eureka.client.serverUrl.defaultZone = http://localhost:8761/eureka/
+
+zuul.routes.customers.path=/customers/**
+zuul.routes.customers.serviceId=customer-service
+
+zuul.routes.orders.path=/orders/**
+zuul.routes.orders.serviceId=order-service
+
+
+zuul.routes.sidecar-flask-app.url=http://localhost:8058/success.json

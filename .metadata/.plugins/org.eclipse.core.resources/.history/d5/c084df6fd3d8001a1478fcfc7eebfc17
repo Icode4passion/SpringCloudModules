@@ -1,0 +1,30 @@
+package com.myproj.stock.dao.Imp;
+
+
+import com.myproj.stock.model.Stock;
+import com.myproj.stock.dao.StockDao;
+
+import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
+public class StockDaoImp extends HibernateDaoSupport implements StockDao {
+
+	public void save(Stock stock) {
+		 getHibernateTemplate().save(stock);
+		
+	}
+
+	public void update(Stock stock) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void delete(Stock stock) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Stock findStockByCode(String stockCode) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

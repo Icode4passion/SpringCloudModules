@@ -1,0 +1,18 @@
+package com.orielly.cloud;
+
+import javax.annotation.Generated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class Developer {
+	
+	private static final GenerationType GenerationType = null;
+	@Id
+	@GeneratedValue(strategy=GenerationType=Auto)
+	private String fName;
+	private String lname;
+	private String eMail;
+	
+
+}

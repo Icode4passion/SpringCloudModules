@@ -1,0 +1,10 @@
+package com.orielly.cloud;
+
+import javax.annotation.Generated;
+
+public class Developer {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType=Auto)
+
+}

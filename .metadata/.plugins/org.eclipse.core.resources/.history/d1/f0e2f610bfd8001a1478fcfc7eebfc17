@@ -1,0 +1,47 @@
+package com.orielly.cloud;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class Skill {
+
+	 @Id
+	 @GeneratedValue(strategy = GenerationType.AUTO)
+	 private long sid;
+	 public long getSid() {
+		return sid;
+	}
+	public void setSid(long sid) {
+		this.sid = sid;
+	}
+	private String description;
+	 private String label;
+	
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public String getLabel() {
+		return label;
+	}
+	public void setLabel(String label) {
+		this.label = label;
+	}
+	public Skill() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Skill(long id, String description, String label) {
+		super();
+		this.id = id;
+		this.description = description;
+		this.label = label;
+	}
+	 
+	 
+	 
+	 
+}

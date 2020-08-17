@@ -1,0 +1,4 @@
+
+simple-service-II.ribbion.eureka.enable = false
+simple-service-II.ribbion.ServerListRefreshInterval=10000
+simple-service-II.ribbion.listOfServers=http://localhost:7777,http://localhost:8888,http://localhost:9999

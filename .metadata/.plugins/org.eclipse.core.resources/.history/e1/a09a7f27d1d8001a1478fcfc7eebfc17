@@ -1,0 +1,5 @@
+package com.myproj.stock.bo.Imp;
+
+public class StockBoImp {
+
+}

@@ -1,0 +1,6 @@
+
+simple-service-II.ribbon.eureka.enable = false
+simple-service-II.ribbon.ServerListRefreshInterval=10000
+simple-service-II.ribbon.listOfServers=localhost:7777,localhost:8888,localhost:9999
+
+simple-service-II.ribb

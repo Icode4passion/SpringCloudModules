@@ -1,0 +1,29 @@
+package com.orielly.cloud;
+
+import java.util.Arrays;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@SpringBootApplication
+@RestController
+public class SpringMicroservicesOrderServiceApplication {
+	
+	private final List<Order> orders = Arrays.asList(
+			
+			new Order(1 , 1001 , "Groceries"),
+			new Order(2 , 2001 , "Furniture"),
+			new Order(3 , 3001 , "Gadgets"),
+			
+			);
+	
+	
+	@GetMapping
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringMicroservicesOrderServiceApplication.class, args);
+	}
+
+}

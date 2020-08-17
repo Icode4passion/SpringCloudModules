@@ -1,0 +1,5 @@
+package com.myproj.stock.dao;
+
+public class StockDao {
+
+}

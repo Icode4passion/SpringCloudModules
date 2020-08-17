@@ -1,0 +1,11 @@
+package com.myproj.stock.model;
+
+import java.io.Serializable;
+
+public class Stock implements Serializable {
+	
+	private long stockId;
+	private String stockCode;
+	private String stockName;
+
+}

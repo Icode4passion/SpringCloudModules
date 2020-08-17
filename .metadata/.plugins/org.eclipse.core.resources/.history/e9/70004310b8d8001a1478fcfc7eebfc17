@@ -1,0 +1,29 @@
+package com.orielly.cloud;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class DeveloperController {
+	
+	
+	@Autowired
+	DeveloperRepository developerRepository;
+	
+	@Autowired
+	SkillRepository skillRepository;
+	
+	@RequestMapping("/developer/{id}")
+	public String developer()
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

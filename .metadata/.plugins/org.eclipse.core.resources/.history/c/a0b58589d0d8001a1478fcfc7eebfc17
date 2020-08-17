@@ -1,0 +1,5 @@
+package com.myproj.stock.bo;
+
+public class StockBo {
+
+}

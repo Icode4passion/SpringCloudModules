@@ -1,0 +1,2 @@
+spring.application.name = zuul-gateway-server
+server.port = 3000

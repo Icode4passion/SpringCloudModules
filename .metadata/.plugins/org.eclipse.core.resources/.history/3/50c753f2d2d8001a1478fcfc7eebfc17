@@ -1,0 +1,8 @@
+package com.myproj.stock.dao.Imp;
+
+
+import com.myproj.stock.model.Stock;
+
+public class StockDaoImp {
+
+}

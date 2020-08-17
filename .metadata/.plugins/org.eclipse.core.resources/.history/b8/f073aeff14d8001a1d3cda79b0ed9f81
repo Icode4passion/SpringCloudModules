@@ -1,0 +1,3 @@
+
+simple-service-II.ribbion.eureka.enable = false
+simple-service-II.ribbion.ServerListRefreshInterval=10000

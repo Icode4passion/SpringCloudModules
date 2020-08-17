@@ -1,0 +1,5 @@
+package org.com.mvc.services;
+
+public class GreetingService {
+
+}

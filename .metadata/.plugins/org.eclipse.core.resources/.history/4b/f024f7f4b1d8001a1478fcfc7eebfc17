@@ -1,0 +1,5 @@
+package com.orielly.cloud;
+
+public interface DeveloperRepository {
+
+}

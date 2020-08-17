@@ -1,0 +1,11 @@
+package com.orielly.cloud;
+
+public class Skill {
+
+	 @Id
+	 @GeneratedValue(strategy = GenerationType.AUTO)
+	 private long id;
+	 private String description;
+	 private String label;
+	 
+}

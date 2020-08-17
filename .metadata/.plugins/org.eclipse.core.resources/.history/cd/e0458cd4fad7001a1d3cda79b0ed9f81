@@ -1,0 +1,9 @@
+package com.orielly.cloud;
+
+public class SimpleServiceConfiguration {
+
+	
+	
+	@Autowired
+	public IClientConfig ribbionClientConfig;
+}

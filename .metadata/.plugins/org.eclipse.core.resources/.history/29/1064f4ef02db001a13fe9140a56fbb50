@@ -1,0 +1,17 @@
+package org.com.mvc.services;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Service
+public class GreetingService {
+	
+	
+	@ResponseBody
+	@RequestMapping("/")
+	public String greet() {
+		return "Hello World to Spring";
+	}
+
+}

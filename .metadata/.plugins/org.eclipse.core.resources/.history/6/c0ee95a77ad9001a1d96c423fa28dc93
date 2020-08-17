@@ -1,0 +1,4 @@
+
+server.port = 5000
+spring.application.name=sidecar-flask-app
+eureka.client.serviceUrl.defaultZone = http://localhost:8761/eureka

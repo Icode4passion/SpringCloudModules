@@ -1,0 +1,19 @@
+package com.orielly.cloud;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+
+import com.netflix.client.config.IClientConfig;
+import com.netflix.loadbalancer.IPing;
+import com.netflix.loadbalancer.PingUrl;
+
+public class SimpleServiceConfiguration {	
+	
+	@Autowired
+	public IClientConfig ribbionClientConfig;
+	
+	@Bean
+	public IPing ping(IClientConfig config) {
+		return new PingUrl();
+	}
+}

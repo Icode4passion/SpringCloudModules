@@ -1,0 +1,2 @@
+# Define the root logger with appender X
+log4j.rootLogger = INFO, X
